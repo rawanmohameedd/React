@@ -1,0 +1,123 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Mouse",
+            "category": "Electronics",
+            "description": "A high-precision wireless mouse with ergonomic design.",
+            "price": 29.99
+        },
+        {
+            "id": 2,
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "description": "Portable Bluetooth speaker with superior sound quality.",
+            "price": 49.99
+        },
+        {
+            "id": 3,
+            "name": "Headphones",
+            "category": "Electronics",
+            "description": "Noise-canceling over-ear headphones with long battery life.",
+            "price": 89.99
+        },
+        {
+            "id": 4,
+            "name": "Running Shoes",
+            "category": "Footwear",
+            "description": "Comfortable and durable running shoes for all terrains.",
+            "price": 69.99
+        },
+        {
+            "id": 5,
+            "name": "Sandals",
+            "category": "Footwear",
+            "description": "Lightweight sandals perfect for summer outings.",
+            "price": 39.99
+        },
+        {
+            "id": 6,
+            "name": "Smartphone Stand",
+            "category": "Accessories",
+            "description": "Adjustable smartphone stand, compatible with all devices.",
+            "price": 14.99
+        },
+        {
+            "id": 7,
+            "name": "Leather Wallet",
+            "category": "Accessories",
+            "description": "Stylish leather wallet with multiple card slots.",
+            "price": 24.99
+        },
+        {
+            "id": 8,
+            "name": "Water Bottle",
+            "category": "Kitchen",
+            "description": "Stainless steel water bottle with temperature control.",
+            "price": 19.99
+        },
+        {
+            "id": 9,
+            "name": "Coffee Mug",
+            "category": "Kitchen",
+            "description": "Ceramic coffee mug with a comfortable handle.",
+            "price": 9.99
+        },
+        {
+            "id": 10,
+            "name": "Notebook",
+            "category": "Stationery",
+            "description": "A5 size notebook with ruled pages and hardcover.",
+            "price": 12.99
+        },
+        {
+            "id": 11,
+            "name": "Ballpoint Pen",
+            "category": "Stationery",
+            "description": "Smooth writing ballpoint pen with a comfortable grip.",
+            "price": 2.99
+        },
+        {
+            "id": 12,
+            "name": "Yoga Mat",
+            "category": "Fitness",
+            "description": "Non-slip yoga mat with extra cushioning for comfort.",
+            "price": 29.99
+        },
+        {
+            "id": 13,
+            "name": "Dumbbells",
+            "category": "Fitness",
+            "description": "Set of adjustable dumbbells for strength training.",
+            "price": 59.99
+        },
+        {
+            "id": 14,
+            "name": "LED Desk Lamp",
+            "category": "Home",
+            "description": "Energy-efficient LED desk lamp with adjustable brightness.",
+            "price": 34.99
+        },
+        {
+            "id": 15,
+            "name": "Wall Clock",
+            "category": "Home",
+            "description": "Modern wall clock with silent operation.",
+            "price": 24.99
+        },
+        {
+            "id": 16,
+            "name": "Backpack",
+            "category": "Travel",
+            "description": "Spacious and durable backpack with multiple compartments.",
+            "price": 49.99
+        },
+        {
+            "id": 17,
+            "name": "Travel Pillow",
+            "category": "Travel",
+            "description": "Comfortable neck pillow for long journeys.",
+            "price": 19.99
+        }
+    ]
+}

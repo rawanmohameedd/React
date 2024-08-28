@@ -1,25 +1,35 @@
 import React from 'react'
 import useFetch from '../../Hooks/useFetch'
 import { Link } from 'react-router-dom'
+import "./Home.css"
+import reactLogo from '../../assets/react.svg'
+import { FaCartPlus } from 'react-icons/fa'
 
 export const Home = () => {
-  const { data: products } = useFetch("http://localhost:3000/products")
-
-  // const Categories = products.filter((product) => {
-
-  // })
+  const { data: products } = useFetch("http://192.168.1.12:3000/products")
 
   return (
-    <div>
+    <div className='homeContainer'>
       {products &&
         products.map((product) => {
           let id = product.id
-          let category
-          if (product.category != product.category - 1)
-            category = product.category
+          let image = product.image || reactLogo
           return (
             <Link to={`/product/${id}`} key={id}>
-              <h2>{category}</h2>
+              <div style={{ "flex": 1 }}>
+
+                <h2>{product.name}</h2>
+                <p> {product.description}</p>
+                <p>{product.price}</p>
+
+                <div className='cart'>
+                  <span> <FaCartPlus /> </span>
+                  <input type='button' value='Add to cart' />
+                </div>
+              </div>
+
+              <img src={image} />
+
             </Link>
           )
         })

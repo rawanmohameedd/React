@@ -47,7 +47,31 @@ a:hover {
     cursor: pointer;
 }
 
+.search-bar {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px 10px 10px 40px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon{
+    margin-right: 8px;
+}
+
 @media (max-width: 768px) {
+    .container{
+        margin-bottom: 20px;
+    }
     .nav-links ul {
         flex-direction: column;
         position: absolute;
@@ -57,6 +81,7 @@ a:hover {
         background-color: rgb(23, 77, 125);
         display: none;
         z-index: 999;
+        padding: auto;
     }
 
     .nav-links.open ul {
@@ -69,6 +94,7 @@ a:hover {
 
     h2 {
         font-size: 24px;
+        padding-left: 5px;
     }
 
     li {

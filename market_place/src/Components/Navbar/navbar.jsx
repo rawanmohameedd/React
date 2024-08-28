@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import { FaSearch } from 'react-icons/fa';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,12 @@ export const Navbar = () => {
   return (
     <header className='container'>
       <h2>Shop Now</h2>
+
+      <div className='searc-bar'>
+        <span className="search-icon"><FaSearch/></span> 
+        <input type='text' placeholder='Search'/>
+      </div>
+
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
         <ul>
           <li><a href='#'>Home</a></li>

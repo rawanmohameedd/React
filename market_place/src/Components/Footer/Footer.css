@@ -1,0 +1,19 @@
+.footer {
+    background-color: rgb(23, 77, 125);
+    color: antiquewhite;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyRights {
+    display: flex;
+    align-items: center;
+}
+
+.contactUs {
+    display: flex;
+    gap: 15px;
+}

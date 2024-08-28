@@ -45,14 +45,35 @@
     
 }
 
-.cart{
+.cart {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    justify-content: right;
+    margin-top: 10px; /* Adjust as needed */
 }
 
-.cart input {
-    margin-left: 5px;
+.cart input[type="button"],
+.count-button {
+    color: antiquewhite;
+    background-color: rgb(23, 77, 125);
+    border: none;
+    padding: 5px 8px;
+margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart input[type="button"]:hover,
+.count-button:hover {
+    background-color: #fff; 
+color: rgb(89, 100, 109);
+}
+
+.count-row {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Space between counter and 'Add to cart' */
 }
 
 @media (max-width: 768px) {

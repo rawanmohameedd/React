@@ -15,6 +15,14 @@
     margin:0px;
 }
 
+ul{
+    display: none;
+}
+
+ul.show{
+    display: flex;
+}
+
 .nav-links ul {
     display: flex;
     list-style-type: none;
@@ -53,20 +61,60 @@ a:hover {
     margin: 20px 0;
     display: flex;
     justify-content: center;
+    max-width: 150px;
+    align-items: center;
 }
 
 .search-bar input {
-    width: 80%;
+    width: 90%;
     padding: 10px 10px 10px 40px; 
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-icon{
     margin-right: 8px;
 }
+
+details {
+    position: relative;
+
+}
+
+details ul {
+    display: flex;
+    flex-direction: column; 
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    background-color: rgb(23, 77, 125);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000; 
+
+}
+
+details[open] summary ~ ul {
+    display: flex; 
+    flex-direction: column;
+
+}
+
+details ul li {
+    width: 100%;
+    padding: 8px 12px; 
+    margin: 5px 0;
+}
+
+details ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+details ul li:hover {
+    background-color: rgb(89, 111, 129); 
+}
+
 
 @media (max-width: 768px) {
     .container{

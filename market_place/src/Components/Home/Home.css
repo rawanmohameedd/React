@@ -1,87 +1,9 @@
+
 .homeContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgb(89, 111, 129);
-    margin-top: 80px;
-    padding: 20px;
+    height: 90%;
 }
-
-.homeContainer a {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex: 0 1 40%; 
-    margin-bottom: 20px; 
-    background-color: #fff; 
-    padding: 15px;
-    color: rgb(89, 100, 109);; 
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
-}
-
-.homeContainer a:hover{
-    color: antiquewhite;
-    background-color: rgb(23, 77, 125);
-}
-
-.homeContainer h2 {
-    margin: 0;
-    padding-bottom: 10px;
-    
-}
-
-.homeContainer p {
-    margin: 5px 0;
-}
-
-.homeContainer img {
-    flex: 0 0 50px;
-    width: auto;
-    height: auto;
-    margin-left: 20px;
-    
-}
-
-.cart {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    margin-top: 10px; /* Adjust as needed */
-}
-
-.cart input[type="button"],
-.count-button {
-    color: antiquewhite;
-    background-color: rgb(23, 77, 125);
-    border: none;
-    padding: 5px 8px;
-margin: 0 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.cart input[type="button"]:hover,
-.count-button:hover {
-    background-color: #fff; 
-color: rgb(89, 100, 109);
-}
-
-.count-row {
-    display: flex;
-    align-items: center;
-    margin-right: 10px; /* Space between counter and 'Add to cart' */
-}
-
-@media (max-width: 768px) {
-    .homeContainer a {
-        flex: 0 1 100%; /* Single column on small screens */
-        margin-left: 0;
-        margin-top: 20px;
-    }
-}
-
 

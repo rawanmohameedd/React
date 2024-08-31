@@ -1,16 +1,19 @@
 .footer {
     background-color: rgb(23, 77, 125);
     color: antiquewhite;
-
+    bottom: 0;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed; */
+    width: 100%;
 }
 
 .copyRights {
     display: flex;
     align-items: center;
+
 }
 
 .contactUs {

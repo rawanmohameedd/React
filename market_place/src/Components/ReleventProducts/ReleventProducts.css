@@ -1,0 +1,41 @@
+/* ReleventProducts.css */
+.relevant-products-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px; /* Space between items */
+    padding: 10px;
+    scrollbar-width: thin; /* Firefox - thin scrollbar */
+    -ms-overflow-style: none; /* IE and Edge - no scrollbar */
+}
+
+/* Webkit browsers - thin scrollbar */
+.relevant-products-container::-webkit-scrollbar {
+    height: 8px; /* Scrollbar height */
+}
+
+.relevant-products-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar thumb color */
+    border-radius: 10px;
+}
+
+.relevant-products-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar thumb hover color */
+}
+
+.categoriesContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .relevant-products-container {
+
+        justify-content: center; 
+    }
+    
+    .categoriesContainer {
+width: 45%;
+    }
+}

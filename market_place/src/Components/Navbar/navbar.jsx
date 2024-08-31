@@ -32,7 +32,7 @@ export const Navbar = () => {
 
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
         <ul>
-          <li><a href='#'>Home</a></li>
+          <li><a href='/'>Home</a></li>
           <li><a href='#'>Categories</a></li>
           <li><a href='#'>Offers</a></li>
           <li>

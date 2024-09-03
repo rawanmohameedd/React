@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Home.css"
-import { ProductList } from '../productList/productList'
+import { ProductList } from '../product/productList'
 import { server } from '../../server'
 import Breadcrumb from '../BreadCrumbs/BreadCrumbs'
 
